@@ -148,3 +148,41 @@
 #     print(os.cpu_count())
 
 # main()
+
+
+
+
+
+
+
+
+# def memoize(func):
+#     cache = {}
+
+#     def wrapper(*args):
+#         if args not in cache:
+#             result = func(*args)
+#             cache[args] = result
+#             return result
+#         else:
+#             print(f"Returning cached result for {func.__name__}{args}")
+#             return cache[args]
+
+#     return wrapper
+
+# @memoize
+# def add(x, y):
+#     print(f"Adding {x} and {y}")
+#     return x + y
+
+# @memoize
+# def multiply(x, y):
+#     print(f"Multiplying {x} and {y}")
+#     return x * y
+
+# # Testing the memoization
+# print(add(2, 3))  # New calculation
+# print(add(2, 3))  # Cached result
+
+# print(multiply(4, 5))  # New calculation
+# print(multiply(4, 5))  # Cached result
