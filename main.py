@@ -128,7 +128,7 @@
 # str = "*"
 #
 # if num2 == 0:
-#     print("На ноль делить нельзя!")
+#     print("Can't divide by 0")
 # else:
 #     if str == "+":
 #         print(num1 + num2)
@@ -139,7 +139,7 @@
 #     elif str == "/":
 #         print(num1 / num2)
 #     else:
-#         print("Неверная операция")
+#         print("Invalid operator")
 
 # import os
 
@@ -148,12 +148,6 @@
 #     print(os.cpu_count())
 
 # main()
-
-
-
-
-
-
 
 
 # def memoize(func):
@@ -183,6 +177,26 @@
 # # Testing the memoization
 # print(add(2, 3))  # New calculation
 # print(add(2, 3))  # Cached result
-
 # print(multiply(4, 5))  # New calculation
 # print(multiply(4, 5))  # Cached result
+
+
+# result1 = input()
+# result2 = input()
+# result3 = input()
+# if result1.isnumeric() and result2.isnumeric() and result3.isnumeric():
+#     result1 = int(result1) / 100 * 30
+#     result2 = int(result2) / 100 * 30
+#     result3 = int(result3) / 100 * 40
+#     finalResult = result1 + result2 + result3
+#
+#     if finalResult < 40:
+#         print("Bad")
+#     elif finalResult < 70:
+#         print("Good")
+#     elif finalResult < 90:
+#         print("Very Good")
+#     else:
+#         print("Excellent")
+# else:
+#     print("The results should be numeric")
